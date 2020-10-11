@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  position: relative;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  display: flex;
+}
+
+.icons {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.padding-top {
+  padding-top: 7px;
+}
+
+#camera-icon {
+  bottom: 40px;
+  left: 30px;
+}
+
+#cog-icon {
+  bottom: 15px;
+  left: 75px;
+}
+
+#avatar-icon-1 {
+  bottom: 40px;
+  right: 30px;
+  visibility: hidden;
+}
+
+#avatar-icon-2 {
+  bottom: 85px;
+  right: 10px;
+  visibility: hidden;
+}
+
+#avatar-icon-3{
+  bottom: 135px;
+  right: 10px;
+  visibility: hidden;
+}
+
+#selected-avatar {
+  font-size: 100px;
+  color: blue;
+  margin: auto;
+}
+
